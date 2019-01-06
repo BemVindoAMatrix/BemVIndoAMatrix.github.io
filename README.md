@@ -29,7 +29,7 @@ Para fazer um post, faça um pull request para os arquivos PTposts.txt(para post
 > \</p\><br>
 > \<img src="https://i.imgur.com/eMMb2PC.png" class="postimg"\><br>
 > \<p class="posttext"\><br>
-> \By: <a href="https://github.com/yaszu">yaszu</a\><br>
+> By: <a href="https://github.com/yaszu">yaszu</a\><br>
 > \</p\><br>
 > \</article\><br>
 > \</br\><br>
