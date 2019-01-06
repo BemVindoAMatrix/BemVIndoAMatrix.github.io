@@ -34,7 +34,7 @@ Para fazer um post, faça um pull request para os arquivos PTposts.txt(para post
 > \</article\><br>
 > \</br\><br>
 
-## Result of above example
+## Result of above example:
 <article class="post">
 <h2 class="posttext">[fvwm] clean and simple</h2>
 <p class="posttext">
