@@ -5,8 +5,8 @@ To do a post, make a pull request to files PTposts.txt(for portuguese posts) or 
 
 Para fazer um post, faça um pull request para os arquivos PTposts.txt(para posts em português) e ENpost.txt(para posts em inglês);
 
-EN = English
-PT = Portuguese
+EN = English<br>
+PT = Portuguese<br>
 
 ## Post Template(EN) \\ Modelo de post(PT)
 > \<article class="post"\><br>
