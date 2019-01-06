@@ -1,0 +1,69 @@
+<article class="post">
+<h2 class="posttext">[fvwm] clean and simple</h2>
+<p class="posttext">
+Distro: Arch<br>
+WM: fvwm<br>
+Widgets/bar: Conky, Polybar<br>
+</p>
+<img src="https://i.imgur.com/eMMb2PC.png" class="postimg">
+<p class="posttext">
+By: <a href="https://github.com/yaszu">yaszu</a>
+</p>
+</article>
+</br>
+
+<article class="post">
+<h2 class="posttext">Login Automatico pelo TTY (NoSystemD)</h2>
+<p class="posttext">
+O tutorial é focado no arquivo /etc/inittab para verificar se sua distro tem esse arquivo;<br>
+<code>$ test -e /etc/inittab && echo "/etc/inittab" || echo "NULL"</code>
+<br><br>
+Agora que já sabe que tem o arquivo rode o seguinte comando e troque &#60;user&#62; pelo nome de login do seu usuário.<br>
+<code># sed -E '/tty1/s/(agetty)/\1 --autologin &#60;user&#62;/' -i /etc/inittab</code>
+<br><br>
+Agora quando você der boot irá logar automaticamente; OBS: Esse login está configurado apenas para o tty1.<br>
+</p>
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
+<h2 class="posttext">[herbstluftwm] Katekyou Hitman Reborn</h2>
+<p class="posttext">
+Distro: Gentoo<br>
+WM: herbstluftwm<br>
+Widgets/bar: dzen2<br>
+</p>
+<img src="https://i.imgur.com/u8ZvnbH.png" class="postimg">
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
+<h2 class="posttext">PrintShotter</h2>
+<p class="posttext">
+PrintShotter é um programa criado pelo <a href="https://github.com/UserUnavailable" target="_black">UserUnavailable</a> que serve para tirar prints da aréa de trabalho e jogalos direto para o clipboard. Ele pode ser encontrado <a href="https://github.com/UserUnavailable/PrintShotter">aqui</a>. Ele é fácil de instalar basta colocar o binário em algum dos arquivos do $PATH, ou se você estiver usando uma distro Gentoo Based <a href="https://github.com/yaszu/yaszulay/tree/master/media-gfx/printshotter">Yaszulay</a>.
+</p>
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
+<h2 class="posttext">Introdução ao Grupo</h2>
+<p class="posttext">
+Bem Vindo a Matrix é um grupo no <a href="https://my.telegram.org" target="_black">Telegram</a> para conversas sobre tecnologia e principalmente sobre <a href="https://www.linuxfoundation.org/projects/linux/" target="_black">Linux</a>. Um grupo voltado para a socialização entre os usuários de varios sistemas. O grupo teve uma versão anterior, mas por problemas tecnicos tive que ser criado um versão 2.0 que está em uso até hoje.
+<br><br>
+Grupo criado dia 09/11/16, versão 2.0 dia 25/07/17.
+</p>
+<img src="https://i.imgur.com/PDAthnR.jpg" height="200" width="200" class="postimg">
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>

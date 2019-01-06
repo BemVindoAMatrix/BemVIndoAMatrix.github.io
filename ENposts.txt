@@ -1,0 +1,39 @@
+<article class="post">
+<h2 class="posttext">Auto Login with TTY (NoSystemD)</h2>
+<p class="posttext">
+The tutorial is based on file /etc/inittab to check if there's this file in your distro;<br>
+<code>$ test -e /etc/inittab && echo "/etc/inittab" || echo "NULL"</code>
+<br><br>
+Now that you already know this file, run this command bellow and change &#60;user&#62; to your user name.<br>
+<code># sed -E '/tty1/s/(agetty)/\1 --autologin &#60;user&#62;/' -i /etc/inittab</code>
+<br><br>
+Now when you boot your linux it'll boot automatically; OBS: This login is only configured to TTY1.<br>
+</p>
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
+<h2 class="posttext">PrintShotter</h2>
+<p class="posttext">
+PrintShotter is a program made by <a href="https://github.com/UserUnavailable" target="_black">UserUnavailable</a> to print desktop to clipboard. It can be find <a href="https://github.com/UserUnavailable/PrintShotter">here</a>. It's easy to install just put the binary in some directory of $PATH, or, if you use a Gentoo Based distro <a href="https://github.com/yaszu/yaszulay/tree/master/media-gfx/printshotter">Yaszulay</a>.
+</p>
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
+<h2 class="posttext">Introduction To The Group</h2>
+<p class="posttext">
+Welcome To The Matrix is a group on <a href="https://my.telegram.org" target="_black">Telegram</a> to talk about tech stuffs and mainly, about <a href="https://www.linuxfoundation.org/projects/linux/" target="_black">Linux</a>. A group to socialize with users from all kind of system.
+</p>
+<img src="https://i.imgur.com/xeXXXAM.jpg" height="200" width="200" class="postimg">
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
