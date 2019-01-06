@@ -23,7 +23,7 @@ Para fazer um post, faça um pull request para os arquivos PTposts.txt(para post
 > \<article class="post"\><br>
 > \<h2 class="posttext">[fvwm] clean and simple</h2\><br>
 > \<p class="posttext"\><br>
-> \Distro: Arch<br\><br>
+> Distro: Arch<br\><br>
 > WM: fvwm<br\><br>
 > Widgets/bar: Conky, Polybar<br\><br>
 > \</p\><br>
