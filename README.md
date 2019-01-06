@@ -20,16 +20,16 @@ Para fazer um post, faça um pull request para os arquivos PTposts.txt(para post
 > \</br\><br>
 
 ## Example of post 
-> <article class="post">
-> <h2 class="posttext">[fvwm] clean and simple</h2>
-> <p class="posttext">
-> Distro: Arch<br>
+> \<article class="post">
+> \<h2 class="posttext">[fvwm] clean and simple</h2>
+> \<p class="posttext">
+> \Distro: Arch<br>
 > WM: fvwm<br>
 > Widgets/bar: Conky, Polybar<br>
-> </p>
-> <img src="https://i.imgur.com/eMMb2PC.png" class="postimg">
-> <p class="posttext">
-> By: <a href="https://github.com/yaszu">yaszu</a>
-> </p>
-> </article>
-> </br>
+> \</p>
+> \<img src="https://i.imgur.com/eMMb2PC.png" class="postimg">
+> \<p class="posttext">
+> \By: <a href="https://github.com/yaszu">yaszu</a>
+> \</p>
+> \</article>
+> \</br>
