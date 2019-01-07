@@ -72,6 +72,6 @@ function post() {
           document.write(string.replace(/\n/g,"<br>"));
 }
 
-if (window.location.pathname == "/home/kleber/GitHub/BemVindoAMatrix.github.io/posttemplate.html") {
+if (window.location.pathname == "/posttemplate.html") {
           post();
 }
