@@ -105,15 +105,14 @@
 }
 
 #infobox .postButton {
-          position: relative;
-          left: 59%;
+          position: absolute;
+          left: 70%;
           border-radius: 5px;
           color: #1a1a1b;
           background: #cdcdcd;
           text-decoration: none;
           font-weight: bold;
           padding: 5px;
-          width: 100px;
 }
 
 #infobox .postButton:hover { background: #ffffff; }

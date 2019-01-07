@@ -75,3 +75,15 @@ function post() {
 if (window.location.pathname == "/posttemplate.html") {
           post();
 }
+
+window.onresize = function sizeProperty() {
+          if (window.innerWidth <= 990) {
+                    document.getElementById("infobox").style.display = "none";
+                    document.getElementById("feed").style.left = "3%";
+                    document.getElementById("feed").style.width = "94%";
+          } else {
+                    document.getElementById("infobox").style.display = "block";
+                    document.getElementById("feed").style.left = "10%";
+                    document.getElementById("feed").style.width = "45%";
+          }
+}
