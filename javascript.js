@@ -29,7 +29,7 @@ function getquery(num) {
                     var string = location.href.replace(/.*?\?/,"");
                     var string = string.split("&")[num].replace(/.*?=/,"");
                     if (string == "") {
-                              return "<mark>NULL (DO NOT use this line)</mark>";
+                              return "NULL";
                     } else {
                               return string.replace(/\+/g," ");
                     }
@@ -37,24 +37,41 @@ function getquery(num) {
 }
 
 function post() {
-          var title = getquery(0);
-          var text = decodeURIComponent(getquery(1)).replace(/(\n|$)/g,"&#60;br&#62;$1");
-          var photo = decodeURIComponent(getquery(2));
-          var link = decodeURIComponent(getquery(4));
-          var name = decodeURIComponent(getquery(3));
+          var language = getquery(0);
+          var title = decodeURIComponent(getquery(1));
+          var text = decodeURIComponent(getquery(2)).replace(/(\n|$)/g,"&#60;br&#62;$1");
+          var photo = decodeURIComponent(getquery(3));
+          var link = decodeURIComponent(getquery(5));
+          var name = decodeURIComponent(getquery(4));
+          
+          if (photo == "NULL") {
+                    photo = ''
+          } else {
+                    photo = "\n&#60;img src=\"" + photo + "\" class=\"postimg\"&#62;"
+          }
+          
+          if (language == "PT") { 
+                    language = "Faça um pull request \
+                    <a href=\"https://github.com/BemVindoAMatrix/BemVindoAMatrix.github.io\" target=\"_blank\">AQUI</a> \
+                    no arquivo PTposts.txt com o seguinte conteúdo\n\n";
+          } else {
+                    language = "make a pull request \
+                    <a href=\"https://github.com/BemVindoAMatrix/BemVindoAMatrix.github.io\" target=\"_blank\">HERE</a> \
+                    on file ENposts.txt with the content below\n\n";
+          }
           
           var string = "\
           &#60;article class=\"post\"&#62;\n\
           &#60;h2 class=\"posttext\"&#62;" + title + "&#60;/h2&#62;\
-          &#60;p class=\"posttext\"&#62;\n" + text + "\n&#60;p&#62;\n\
-          &#60;img src=\"" + photo + "\" class=\"postimg\"&#62;\n\
+          &#60;p class=\"posttext\"&#62;\n" + text + "\n&#60;p&#62;" + photo + "\n\
           &#60;p class=\"posttext\"&#62;\n\
           By: &#60;a href=\"" + link + "\"&#62;" + name + "&#60;/a&#62;\n&#60;/p&#62;\n\
           &#60;/article&#62;\n&#60;/br&#62;";
           
+          document.write(language.replace(/\n/g,"<br>"));
           document.write(string.replace(/\n/g,"<br>"));
 }
 
-if (window.location.pathname == "/posttemplate.html") {
+if (window.location.pathname == "/home/kleber/GitHub/BemVindoAMatrix.github.io/posttemplate.html") {
           post();
 }

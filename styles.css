@@ -104,6 +104,21 @@
           border-radius: 5px;
 }
 
+#infobox .postButton {
+          position: relative;
+          left: 59%;
+          border-radius: 5px;
+          color: #1a1a1b;
+          background: #cdcdcd;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 5px;
+          width: 100px;
+}
+
+#infobox .postButton:hover { background: #ffffff; }
+#infobox .postButton:active { background: #9c9c9c; }
+
 .divd {
           position: relative;
           left: 9%;
@@ -152,6 +167,9 @@ a:active { color: #8f8f8f; }
           position: relative;
           top: -20px;
           width: 100%;
+          background: #232729;
+          border: 0px solid;
+          padding: 8px;
 }
 
 #textPost {
@@ -167,6 +185,8 @@ a:active { color: #8f8f8f; }
           width: 100%;
           height: 250px;
           resize: none;
+          background: #232729;
+          border: 0px solid;
           padding: 8px;
 }
 
@@ -180,6 +200,9 @@ a:active { color: #8f8f8f; }
           position: relative;
           top: -20px;
           width: 38%;
+          background: #232729;
+          border: 0px solid;
+          padding: 8px;
 }
 
 #userinfo {
@@ -199,6 +222,9 @@ a:active { color: #8f8f8f; }
           top: -63px;
           width: 38%;
           margin-right: 30px;
+          background: #232729;
+          border: 0px solid;
+          padding: 8px;
 }
 
 #submitPost {
