@@ -4,7 +4,11 @@ https://bemvindoamatrix.github.io/
 To do a post, make a pull request to files PTposts.txt(for portuguese posts) or ENposts.txt(for english posts);
 
 Para fazer um post, faça um pull request para os arquivos PTposts.txt(para posts em português) e ENpost.txt(para posts em inglês);
-## Post Template \\ Modelo de post
+
+EN = English<br>
+PT = Portuguese<br>
+
+## Post Template(EN) \\ Modelo de post(PT)
 > \<article class="post"\><br>
 > \<h2 class="posttext"\>Title\</h2\><br>
 > \<p class="posttext"\><br>
@@ -19,7 +23,7 @@ Para fazer um post, faça um pull request para os arquivos PTposts.txt(para post
 > \</article\><br>
 > \</br\><br>
 
-## Example of post \\ Exemplo de post
+## Example of post(EN) \\ Exemplo de post(PT)
 > \<article class="post"\><br>
 > \<h2 class="posttext">[fvwm] clean and simple</h2\><br>
 > \<p class="posttext"\><br>
@@ -34,7 +38,7 @@ Para fazer um post, faça um pull request para os arquivos PTposts.txt(para post
 > \</article\><br>
 > \</br\><br>
 
-## Result of above example \\ Resultado do exemplo acima:
+## Result of above example(EN) \\ Resultado do exemplo acima(PT):
 <article class="post">
 <h2 class="posttext">[fvwm] clean and simple</h2>
 <p class="posttext">
