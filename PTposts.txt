@@ -1,4 +1,16 @@
 <article class="post">
+<h2 class="posttext">Como Compilar o Kernel Linux</h2> <p class="posttext">
+Fiz esse tutorial para mostrar de forma simples como compilar o kernel linux. <br>
+<br>
+https://telegra.ph/Como-Compilar-o-Kernel-Linux-12-03<br>
+<p>
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
 <h2 class="posttext">[fvwm] clean and simple</h2>
 <p class="posttext">
 Distro: Arch<br>
