@@ -1,9 +1,10 @@
 <article class="post">
-<h2 class="posttext">Como Compilar o Kernel Linux</h2> <p class="posttext">
+<h2 class="posttext">Como Compilar o Kernel Linux</h2>
+<p class="posttext">
 Fiz esse tutorial para mostrar de forma simples como compilar o kernel linux. <br>
 <br>
 https://telegra.ph/Como-Compilar-o-Kernel-Linux-12-03<br>
-<p>
+</p>
 <p class="posttext">
 By: <a href="https://github.com/UserUnavailable">Raqui333</a>
 </p>
