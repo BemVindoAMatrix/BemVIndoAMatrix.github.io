@@ -33,7 +33,7 @@
 <h5 class="thisshit">Feed: Posts pela comunidade</h5>
 </div>
 
-<div id="infobox" onscroll="infobox()">
+<div id="infobox">
 <h4 style="color: #555555;" class="posttext">Informações <a href="postpage.html" class="postButton">CRIAR POST</a></h4>
 <p class="posttext">
 Bem Vindo a Matrix é um grupo no Telegram para conversas sobre tecnologia e principalmente sobre Linux. Um grupo voltado para a socialização entre os usuários de varios sistemas. O grupo teve uma versão anterior, mas por problemas tecnicos tive que ser criado um versão 2.0 que está em uso até hoje.
@@ -46,24 +46,7 @@ Grupo criado dia 09/11/16, versão 2.0 dia 25/07/17.</p>
 <a href="https://t.me/Raqui" class="posttext">Raqui333</a></br></br>
 </div>
 
-<div id="feed">
-<article class="post">
-<h2 class="posttext">Auto Login with TTY (NoSystemD)</h2>
-<p class="posttext">
-The tutorial is based on file /etc/inittab to check if there's this file in your distro;<br>
-<code>$ test -e /etc/inittab && echo "/etc/inittab" || echo "NULL"</code>
-<br><br>
-Now that you already know this file, run this command bellow and change &#60;user&#62; to your user name.<br>
-<code># sed -E '/tty1/s/(agetty)/\1 --autologin &#60;user&#62;/' -i /etc/inittab</code>
-<br><br>
-Now when you boot your linux it'll boot automatically; OBS: This login is only configured to TTY1.<br>
-</p>
-<p class="posttext">
-By: <a href="https://github.com/UserUnavailable">Raqui333</a>
-</p>
-</article>
-</br>
-</div>
+<div id="feed"></div>
 
 </body>
 </html>

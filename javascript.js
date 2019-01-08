@@ -4,14 +4,14 @@ function postIt(url){
           if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("feed").innerHTML = this.responseText;
           }};
-          xhttp.open("GET", url, true)
+          xhttp.open("GET", url, true);
           xhttp.send();
 }
 
 if (window.location.pathname == "/") {
-          window.onload = postIt("PTposts.txt");
+          postIt("PTposts.txt");
 } else if (window.location.pathname == "/matrixintl.html") {
-          window.onload = postIt("ENposts.txt");
+          postIt("ENposts.txt");
 }
 
 window.onscroll = function infobox() {
@@ -22,7 +22,7 @@ window.onscroll = function infobox() {
                     document.getElementById("infobox").style.position = "absolute";
                     document.getElementById("infobox").style.top = "290px";
           }
-}
+};
 
 function getquery(num) {
           if (/\?/.test(location.href)) {
@@ -72,9 +72,7 @@ function post() {
           document.write(string.replace(/\n/g,"<br>"));
 }
 
-if (window.location.pathname == "/posttemplate.html") {
-          post();
-}
+if (window.location.pathname == "/posttemplate.html") post();
 
 window.onresize = function sizeProperty() {
           if (window.innerWidth <= 990) {
@@ -86,4 +84,4 @@ window.onresize = function sizeProperty() {
                     document.getElementById("feed").style.left = "10%";
                     document.getElementById("feed").style.width = "45%";
           }
-}
+};
