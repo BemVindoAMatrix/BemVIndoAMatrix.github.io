@@ -1,21 +1,4 @@
 <article class="post">
-<h2 class="posttext">Logando sem startx</h2>
-<p class="posttext">
-Caso alguém não use nenhuma DM (Display Manager) e queira que assim que digite o usuário e a senha que logue automático sem precisar digitar startx coloque isso no seu .bash_profile, .profile, .zshenv ou o que quer que vc use. <br>
-<br>
-Eu como uso o shell zsh vou colocar no .zshenv, mas poderia ser no .zshrc, o seguinte comando <br>
-# Auto start X. <br>
-[[ -z "$DISPLAY" && "$XDG_VTNR" -eq 1 ]] && exec startx — vt1 &> /dev/null <br>
-<br>
-Pronto, depois disso assim que apertar enter depois de usuário e senha não precisará digitar startx.<br>
-</p>
-<p class="posttext">
-By: <a href="https://t.me/CMAngel">CM</a>
-</p>
-</article>
-</br>
-
-<article class="post">
 <h2 class="posttext">Auto Login with TTY (NoSystemD)</h2>
 <p class="posttext">
 The tutorial is based on file /etc/inittab to check if there's this file in your distro;<br>
