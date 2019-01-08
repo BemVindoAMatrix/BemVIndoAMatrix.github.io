@@ -62,8 +62,8 @@ function post() {
           
           var string = "\
           &#60;article class=\"post\"&#62;\n\
-          &#60;h2 class=\"posttext\"&#62;" + title + "&#60;/h2&#62;\
-          &#60;p class=\"posttext\"&#62;\n" + text + "\n&#60;p&#62;" + photo + "\n\
+          &#60;h2 class=\"posttext\"&#62;" + title + "&#60;/h2&#62;\n\
+          &#60;p class=\"posttext\"&#62;\n" + text + "\n&#60;/p&#62;" + photo + "\n\
           &#60;p class=\"posttext\"&#62;\n\
           By: &#60;a href=\"" + link + "\"&#62;" + name + "&#60;/a&#62;\n&#60;/p&#62;\n\
           &#60;/article&#62;\n&#60;/br&#62;";
