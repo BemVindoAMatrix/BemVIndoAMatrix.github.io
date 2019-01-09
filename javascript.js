@@ -47,7 +47,7 @@ function post() {
           if (photo == "NULL") {
                     photo = ''
           } else {
-                    photo = "\n&#60;img src=\"" + photo + "\" class=\"postimg\"&#62;"
+                    photo = "\n&#60;img src=\"" + photo + "\" class=\"postimg\" onclick=\"window.open(this.src)\"&#62;"
           }
           
           if (language == "PT") { 

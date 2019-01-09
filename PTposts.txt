@@ -35,7 +35,7 @@ Distro: Arch<br>
 WM: fvwm<br>
 Widgets/bar: Conky, Polybar<br>
 </p>
-<img src="https://i.imgur.com/eMMb2PC.png" class="postimg">
+<img src="https://i.imgur.com/eMMb2PC.png" class="postimg" onclick="window.open(this.src)">
 <p class="posttext">
 By: <a href="https://github.com/yaszu">yaszu</a>
 </p>
@@ -66,7 +66,7 @@ Distro: Gentoo<br>
 WM: herbstluftwm<br>
 Widgets/bar: dzen2<br>
 </p>
-<img src="https://i.imgur.com/u8ZvnbH.png" class="postimg">
+<img src="https://i.imgur.com/u8ZvnbH.png" class="postimg" onclick="window.open(this.src)">
 <p class="posttext">
 By: <a href="https://github.com/UserUnavailable">Raqui333</a>
 </p>
@@ -91,7 +91,7 @@ Bem Vindo a Matrix é um grupo no <a href="https://my.telegram.org" target="_bla
 <br><br>
 Grupo criado dia 09/11/16, versão 2.0 dia 25/07/17.
 </p>
-<img src="https://i.imgur.com/PDAthnR.jpg" height="200" width="200" class="postimg">
+<img src="https://i.imgur.com/PDAthnR.jpg" height="200" width="200" class="postimg" onclick="window.open(this.src)">
 <p class="posttext">
 By: <a href="https://github.com/UserUnavailable">Raqui333</a>
 </p>
