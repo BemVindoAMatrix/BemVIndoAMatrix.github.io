@@ -1,4 +1,17 @@
 <article class="post">
+<h2 class="posttext">How To Compile Kernel Linux</h2>
+<p class="posttext">
+I make this tutorial to show in a simple way how to compile the linux kernel. <br>
+<br>
+https://telegra.ph/Como-Compilar-o-Kernel-Linux-12-03<br>
+</p>
+<p class="posttext">
+By: <a href="https://github.com/UserUnavailable">Raqui333</a>
+</p>
+</article>
+</br>
+
+<article class="post">
 <h2 class="posttext">Auto Login with TTY (NoSystemD)</h2>
 <p class="posttext">
 The tutorial is based on file /etc/inittab to check if there's this file in your distro;<br>
