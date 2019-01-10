@@ -1,4 +1,15 @@
 <article class="post">
+<h2 class="posttext">Instalando o ZSH</h2>
+<p class="posttext">
+http://telegra.ph/Instalando-do-ZSH---Bem-Vindo-a-Matrix-10-28<br>
+</p>
+<p class="posttext">
+By: <a href="https://t.me/CMAngel">CM</a>
+</p>
+</article>
+</br>
+
+<article class="post">
 <h2 class="posttext">Logando sem startx</h2>
 <p class="posttext">
 Caso alguém não use nenhuma DM (Display Manager) e queira que assim que digite o usuário e a senha que logue automático sem precisar digitar startx coloque isso no seu .bash_profile, .profile, .zshenv ou o que quer que vc use. <br>
