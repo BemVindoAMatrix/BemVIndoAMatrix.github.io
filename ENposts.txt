@@ -69,6 +69,7 @@
 <p class="posttext">Well, now you can choose your shell and start customizing it right now! There are many more shells out there that you can explore, so don&#39;t be bothered to search. See you next time.</p>
 <p class="posttext">By: <a href="https://github.com/newmankr">Newmankr</a></p>
 </article>
+</br>
 
 <article class="post">
 <h2 class="posttext">How To Compile Kernel Linux</h2>
