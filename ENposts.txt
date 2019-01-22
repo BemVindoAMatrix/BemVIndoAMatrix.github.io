@@ -2,10 +2,10 @@
 <h2 id="how-to-choose-the-best-shell-for-you" class="posttext">How to choose the best shell for you</h2>
 <h3 id="introduction" class="posttext">Introduction</h3>
 <p class="posttext">Choose a good shell that fits your usage is one of the most common tasks when comes to the Linux world. Some help you do things better and faster, boosting your productivity. But certainly there is not a pre-made secret formula to choose the right shell for every user, so that is when this guide comes. </p>
-<h3 id="bash">Bash</h3>
+<h3 id="bash" class="posttext">Bash</h3>
 <p class="posttext">The <strong>B</strong>ourne <strong>A</strong>gain <strong>Sh</strong>ell, most commonly known as Bash, is the default shell for most Linux distributions.  Bash supports brace expansion, command line completion and basic debugging. It also can execute the vast majority of Bourne shell scripts without modification, with the exception of Bourne shell scripts stumbling into fringe syntax behavior interpreted differently in Bash or attempting to run a system command matching a newer Bash builtin, etc. </p>
 <p class="posttext">When a user presses the tab key within an interactive command-shell, Bash automatically uses command line completion, since beta version of 2.04, to match partly typed program names, filenames and variable names. The Bash command-line completion system is very flexible and customizable, and is often packaged with functions that complete arguments and filenames for specific programs and tasks.</p>
-<p class="posttext"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wikihow.com%2Fimages%2F5%2F56%2FWrite-a-Shell-Script-Using-Bash-Shell-in-Ubuntu-Step-8-Version-4.jpg&amp;f=1" alt=""></p>
+<p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wikihow.com%2Fimages%2F5%2F56%2FWrite-a-Shell-Script-Using-Bash-Shell-in-Ubuntu-Step-8-Version-4.jpg&amp;f=1" alt="" height="360" width="200" class="postimg" onclick="window.open(this.src)></p>
 <h4 id="extra-resources" class="posttext">Extra resources</h4>
 <ul>
 <li><a href="https://www.gnu.org/software/bash/">Official project page</a></li>
@@ -26,7 +26,7 @@
 <li>Themeable prompts, including the ability to put prompt information on the right side of the screen and have it auto-hide when typing a long command</li>
 <li>And many more...</li>
 </ul>
-<p class="posttext"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Zsh-demo.png" alt=""></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Zsh-demo.png class="postimg" height="360" width="200" onclick="window.open(this.src)" alt=""></p>
 <h4 id="extra-resources" class="posttext">Extra resources</h4>
 <ul>
 <li><a href="https://www.zsh.org/">Official project page</a></li>
@@ -38,7 +38,7 @@
 <h3 id="fish" class="posttext">Fish</h3>
 <p class="posttext">The <strong>f</strong>riendly <strong>i</strong>nteractive <strong>sh</strong>ell is a Unix shell that attempts to be more interactive and user-friendly than those with a longer history (<em>i.e.</em> most other Unix shells) or those formulated as function-compatible replacements for the aforementioned (<em>e.g.</em> zsh, the Falstad shell). The design goal of fish is to give the user a rich set of powerful features in a way that is easy to discover, remember, and use. Fish is considered an &quot;exotic shell&quot;, in that its syntax derives from neither the Bourne shell nor the C shell . Also unlike previous shells, which disable certain features by default to save system resources, fish enables all features by default.</p>
 <p class="posttext">Fish has &quot;search as you type&quot; automatic suggestions based on history and current directory. The syntax resembles a POSIX compatible shell (such as bash), but deviates in important ways where the creators believe the POSIX shell was badly designed.</p>
-<p class="posttext"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.maketecheasier.com%2Fassets%2Fuploads%2F2017%2F03%2FLinux-shells-06-fish-shell.png&amp;f=1" alt=""></p>
+<p class="posttext"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.maketecheasier.com%2Fassets%2Fuploads%2F2017%2F03%2FLinux-shells-06-fish-shell.png&amp;f=1" alt="" class="postimg" onclick="window.open(this.src)></p>
 <h4 id="extra-resources" class="posttext">Extra resources</h4>
 <ul>
 <li><a href="https://fishshell.com/">Official project page</a></li>
@@ -49,7 +49,7 @@
 <h3 id="tcsh" class="posttext">TCSH</h3>
 <p class="posttext">Tcsh is a Unix shell based on and compatible with the C shell (csh). It is essentially the C shell with programmable command-line completion, command-line editing, and a few other features. Unlike the other common shells, functions cannot be defined in a tcsh script and the user must use aliases instead (as in csh). It is the native root shell for BSD-based systems such as FreeBSD.</p>
 <p class="posttext">Tcsh added filename and command completion and command line editing concepts borrowed from the Tenex system. Though it started as a side branch from the original source tree Joy had created, tcsh is now the main branch for ongoing development. tcsh is very stable but new releases continue to appear roughly once a year, consisting mostly of minor bug fixes. On many systems, such as Mac OS X and Red Hat Linux, csh is actually tcsh. Often one of the two files is either a hard link or a symbolic link to the other, so that either name refers to the same improved version of the C shell. </p>
-<p class="posttext"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/TC_Shell.png" alt=""></p>
+<p class="posttext"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/TC_Shell.png" alt="" height="360" width="200" class="postimg" onclick="window.open(this.src)></p>
 <h4 id="extra-resources" class="posttext">Extra resources</h4>
 <ul>
 <li><a href="http://www.tcsh.org/">Official project page</a></li>
@@ -58,7 +58,7 @@
 <h3 id="ksh" class="posttext">Ksh</h3>
 <p class="posttext"><strong>K</strong>orn <strong>Sh</strong>ell is a Unix shell which was developed by David Korn at Bell Labs in the early 1980s and announced at USENIX on July 14, 1983. The initial development was based on Bourne shell source code. Other early contributors were Bell Labs developers Mike Veach and Pat Sullivan, who wrote the Emacs and vi-style line editing modes&#39; code, respectively. KornShell is backward-compatible with the Bourne shell and includes many features of the C shell, inspired by the requests of Bell Labs users. </p>
 <p class="posttext">The new version of ksh has the functionality of other scripting languages such as awk, icon, perl, rexx, and tcl. For this and many other reasons, ksh is a much better scripting language than any of the other popular shells. The code size for ksh is larger than the Bourne shell or C shell programs. The revised version is even larger. In spite of its increased size, ksh provides better performance. You can write programs to run faster with ksh than with either the Bourne shell or the C shell, sometimes an order of magnitude faster. ksh has evolved and matured with extensive user feedback. The KornShell language uses the same syntax for built-in commands as for non built-in commands. Therefore, system developers can add new commands &quot;transparently&quot; to the KornShell language; that is, with minimum effort and with no differences visible to users other than faster execution. On systems with dynamic linking, it is possible to add new built-in commands at run time.</p>
-<p class="posttext"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fit%2Fthumb%2F4%2F40%2FScreenshot_della_Korn_shell.png%2F1200px-Screenshot_della_Korn_shell.png&amp;f=1" alt=""></p>
+<p class="posttext"><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fit%2Fthumb%2F4%2F40%2FScreenshot_della_Korn_shell.png%2F1200px-Screenshot_della_Korn_shell.png&amp;f=1" alt="" height="360" width="200" class="postimg" onclick="window.open(this.src)></p>
 <h4 id="extra-resources" class="posttext">Extra resources</h4>
 <ul>
 <li><a href="http://www.kornshell.org/">Official project page</a></li>
