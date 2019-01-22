@@ -26,7 +26,7 @@
 <li>Themeable prompts, including the ability to put prompt information on the right side of the screen and have it auto-hide when typing a long command</li>
 <li>And many more...</li>
 </ul>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Zsh-demo.png class="postimg"  onclick="window.open(this.src)" alt=""></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Zsh-demo.png" alt=""  class="postimg" onclick="window.open(this.src)></p>
 <h4 id="extra-resources" class="posttext">Extra resources</h4>
 <ul>
 <li><a href="https://www.zsh.org/">Official project page</a></li>
